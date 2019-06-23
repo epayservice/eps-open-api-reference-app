@@ -1,0 +1,79 @@
+name: eps_open_api_reference_app
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+#  flutter: '>=1.5.9-pre.94 <2.0.0'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+          weight: 900
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+
+dependencies:
+  flutter:
+    sdk: flutter
+  decimal: ^0.3.3
+  dots_indicator: ^0.0.5+1
+  firebase_auth: ^0.11.1+6
+  flutter_bloc_architecture: ^0.0.4
+#  flutter_bloc_architecture:
+#    path: ../flutter_bloc_architecture/
+  flutter_masked_text: ^0.8.0
+  flutter_secure_storage: ^3.2.1+1
+#  flutter_svg: ^0.13.0+2
+  flutter_svg: ^0.12.4+1
+  flutter_webview_plugin: ^0.3.5
+  http: ^0.12.0+2
+  keyboard_actions: ^2.1.1
+  local_auth: ^0.5.2+2
+  mask_text_input_formatter: ^1.0.2
+  money: ^0.2.1
+  regexed_validator: ^1.0.2
+  rounded_modal: ^1.0.0
+  tuple: ^1.0.2
+  shared_preferences: ^0.5.3+1
+  sqflite: ^1.1.5
+  validators: ^2.0.0+1
+  sqfentity:
+    git:
+      url: https://github.com/hhtokpinar/sqfEntity.git
+
+dev_dependencies:
+  test: ^1.6.1
+  mockito: ^4.1.0
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter

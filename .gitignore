@@ -1,0 +1,64 @@
+#
+# Mac OS
+#
+
+**/.DS_Store
+
+#
+# Bash
+#
+
+**/.bash_profile
+
+#
+# Gradle
+#
+
+**/.gradle/
+**/gradlew
+**/gradlew.bat
+**/gradle-wrapper.jar
+
+#
+# JetBrains IDE
+#
+
+**/.externalBuildProject/
+**/.idea/assetWizardSettings.xml
+**/.idea/caches
+**/.idea/gradle.xml
+**/.idea/libraries
+**/.idea/modules.xml
+**/.idea/vcs.xml
+**/.idea/workspace.xml
+**/captures/
+**/build/
+**/local.properties
+**/*.iml
+
+#
+# iOS
+#
+
+**/ios/**/DerivedData/
+**/ios/.generated/
+**/ios/ServiceDefinitions.json
+
+#
+# Flutter
+#
+
+**/.dart_tool/
+**/.flutter-plugins
+**/.packages
+**/.pub-cache/
+**/pubspec.lock
+
+#
+# Project
+#
+
+
+**/main_app_keys.dart
+**/.env
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>512447387651-7oi520q03m8f219kef7duiajie7rtlqg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.512447387651-7oi520q03m8f219kef7duiajie7rtlqg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCmnn5bgfH3cGGqO7Ys50STCm0t9nrf5fs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>512447387651</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.epayservices.epayOpenApiExample</string>
+	<key>PROJECT_ID</key>
+	<string>epay-open-api-example</string>
+	<key>STORAGE_BUCKET</key>
+	<string>epay-open-api-example.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:512447387651:ios:7a44bfb49fe29233</string>
+	<key>DATABASE_URL</key>
+	<string>https://epay-open-api-example.firebaseio.com</string>
+</dict>
+</plist>
